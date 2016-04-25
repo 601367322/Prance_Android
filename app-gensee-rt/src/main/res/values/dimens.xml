@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- chat -->
+    <dimen name="public_chat_title">16sp</dimen>
+    <dimen name="public_chat_title_height">43dp</dimen>
+    <dimen name="public_chat_other">14sp</dimen>
+    <dimen name="public_chat_margin_default">5dp</dimen>
+    <dimen name="public_chat_tip_margin_ver">20dp</dimen>
+    <dimen name="public_chat_content_margin_ver">12dp</dimen>
+    <dimen name="public_chat_bottom_height">58dp</dimen>
+    <dimen name="name_length">50dp</dimen>
+    <dimen name="chat_bottom_padding">5dp</dimen>
+    <dimen name="chat_bottom_hor_mar">4dp</dimen>
+    <dimen name="chat_bottom_left_width">80dp</dimen>
+    
+    
+      
+    <dimen name="chat_select_self_width">150dp</dimen>
+    <dimen name="chat_select_name_size">14sp</dimen>
+    <dimen name="chat_select_person_left">5dp</dimen>
+    <dimen name="chat_padding_top">10dp</dimen>
+    <dimen name="chat_sendbutton_right">5dp</dimen>
+    <dimen name="chat_editview_context_left">4dp</dimen>
+    <dimen name="chat_editview_context">12sp</dimen>
+    <dimen name="chat_select_self">14sp</dimen>
+    <dimen name="chat_listview_name">14sp</dimen>
+    <dimen name="chat_listview_time">14sp</dimen>
+    <dimen name="chat_listview_context">14sp</dimen>
+    <dimen name="chat_listview_name_left">19dp</dimen>
+    <dimen name="chat_listview_time_right">19dp</dimen>
+    <dimen name="chat_listview_context_left">19dp</dimen>
+	<dimen name="chat_listview_context_bottom">15dp</dimen>
+    <dimen name="chat_listview_content_top">10dp</dimen>
+    <dimen name="chat_spinner">80dp</dimen>
+    <dimen name="chat_backwidth">20dp</dimen>
+    
+    <!-- popwindow -->
+    <dimen name="pop_list_do_text">14sp</dimen>
+    <dimen name="pop_list_pop_width">150dp</dimen>
+    <dimen name="pop_list_pop_height">215dp</dimen>
+    <dimen name="pop_list_item_height">40dp</dimen>
+
+    <!-- vote -->
+    <dimen name="vote_margin_btn">5dp</dimen>
+    <dimen name="vote_ver">10dp</dimen>
+    <dimen name="vote_bottom_btn">200dp</dimen>
+    
+    <dimen name="vote_child_padding_hor">10dp</dimen>
+    <dimen name="vote_child_padding_ver">5dp</dimen>
+    
+    <dimen name="vote_title">16sp</dimen>
+    <dimen name="question_title">14sp</dimen>
+    
+        <!-- vod -->
+    <dimen name="input_width">160dp</dimen>
+    <dimen name="list_width"> 80dp</dimen>
+    <dimen name="downlaod_width">35dp</dimen>
+    <dimen name="displayid_width">40dp</dimen>
+    <dimen name="diaplaytime_width">60dp</dimen>
+    <dimen name="listitempaly">50dp</dimen>
+    <dimen name="doc_padding">5dp</dimen>
+
+</resources>

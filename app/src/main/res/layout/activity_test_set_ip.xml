@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.setting.TestSetting"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一键设置:" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内网测试" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content"
+                android:text="自定义:" />
+
+            <AutoCompleteTextView
+                android:id="@+id/ip"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="IP地址(不加http://)" />
+
+            <AutoCompleteTextView
+                android:id="@+id/port"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="端口" />
+
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/log_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="14dp"
+                android:text="日志开关　　"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

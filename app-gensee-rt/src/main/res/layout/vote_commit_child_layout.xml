@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vote_guestion_child_ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/vote_margin_btn" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/single_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/multi_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/answer_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/vote_child_padding_ver"
+            android:paddingLeft="@dimen/vote_child_padding_hor"
+            android:paddingRight="@dimen/vote_child_padding_hor"
+            android:paddingTop="@dimen/vote_child_padding_ver" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/query_answer_success_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vote_receive_iv_success" />
+    </LinearLayout>
+</LinearLayout>

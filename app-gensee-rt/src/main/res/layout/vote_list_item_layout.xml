@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/vote_ver"
+        android:paddingTop="@dimen/vote_ver" >
+
+        <TextView
+            android:id="@+id/vote_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_weight="1" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/vote_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vote_item_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vote_margin_btn"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/vote_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vote_edit" >
+        </Button>
+
+        <Button
+            android:id="@+id/vote_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vote_margin_btn"
+            android:text="@string/vote_delete" >
+        </Button>
+
+        <Button
+            android:id="@+id/vote_publish_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vote_margin_btn"
+            android:text="@string/vote_publish" >
+        </Button>
+
+        <Button
+            android:id="@+id/vote_result_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vote_margin_btn"
+            android:text="@string/vote_result"
+            android:visibility="gone" >
+        </Button>
+
+        <Button
+            android:id="@+id/vote_deadline_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/vote_margin_btn"
+            android:text="@string/vote_deadline"
+            android:visibility="gone" >
+        </Button>
+
+        <Button
+            android:id="@+id/vote_query_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vote_query" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

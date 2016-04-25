@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_public_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/public_chat_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_public_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/public_chat_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_public_chat_hor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/public_chat_margin_default"
+                android:text="聊天"
+                android:textColor="@color/public_chat_other_tip"
+                android:textSize="@dimen/public_chat_title" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_public_chat_sys_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/public_chat_margin_default"
+            android:layout_marginRight="@dimen/public_chat_margin_default"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_public_chat_sys_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/public_chat_tip_margin_ver"
+                android:text="klasjdflakjdsfl"
+                android:textColor="@color/public_chat_other_tip" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/public_chat_tip_margin_ver" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_public_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_bottom"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/iv_public_chat_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/iv_avatar" />
+
+            <com.gensee.view.ChatEditText
+                android:id="@+id/edt_public_chat_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edt_chat_content"
+                android:maxLines="4"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <Button
+                android:id="@+id/btn_public_chat_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_chat_send" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gd_public_chat_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="10dp"
+            android:numColumns="6"
+            android:verticalSpacing="10dp"
+             >
+        </GridView>
+    </LinearLayout>
+
+</RelativeLayout>

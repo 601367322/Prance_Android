@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">腾跃校长在线</string>
+    <string name="login">登录</string>
+    <string name="phone">手机号</string>
+    <string name="password">密码</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="sina_login">新浪登录</string>
+    <string name="wechat_login">微信登录</string>
+    <string name="test">测试</string>
+    <string name="test_enter">测试入口</string>
+    <string name="register">注册</string>
+    <string name="entry_phone">请输入手机号</string>
+    <string name="entry_verification_code">请输入验证码</string>
+    <string name="get_verfication_code">获取验证码</string>
+    <string name="entry_password">请输入密码</string>
+    <string name="entry_confirm_password">请输入确认密码</string>
+</resources>

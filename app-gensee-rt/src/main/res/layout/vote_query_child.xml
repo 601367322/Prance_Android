@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/vote_margin_btn"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" 
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/query_answer_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/query_answer_success_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vote_receive_iv_success" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/query_answer_total_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</LinearLayout>

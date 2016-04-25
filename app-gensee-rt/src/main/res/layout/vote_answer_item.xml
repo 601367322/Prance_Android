@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/vote_ver"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/answer_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:singleLine="true" />
+
+    <RadioButton
+        android:id="@+id/correct_answer_rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/vote_ver"
+        android:visibility="visible" >
+    </RadioButton>
+
+    <CheckBox
+        android:id="@+id/correct_answer_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/vote_ver"
+        android:visibility="gone" />
+
+</LinearLayout>

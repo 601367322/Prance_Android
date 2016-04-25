@@ -1,0 +1,149 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From PlayerDemo:
+* ic_launcher-web.png
+* proguard-project.txt
+From RtmpResourceLib:
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In RtmpResourceLib:
+* AndroidManifest.xml => rtmpResourceLib/src/main/AndroidManifest.xml
+* assets/ => rtmpResourceLib/src/main/assets
+* libs/gensee_expression.jar => rtmpResourceLib/libs/gensee_expression.jar
+* libs/gensee_rtmpplayer.jar => rtmpResourceLib/libs/gensee_rtmpplayer.jar
+* res/ => rtmpResourceLib/src/main/res/
+* src/ => rtmpResourceLib/src/main/java/
+In PlayerDemo:
+* AndroidManifest.xml => app-gensee-player/src/main/AndroidManifest.xml
+* assets/ => app-gensee-player/src/main/assets
+* libs/arm64-v8a/libAVCDecoder.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libAVCDecoder.so
+* libs/arm64-v8a/libSwfView.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libSwfView.so
+* libs/arm64-v8a/libandroid-swfplayer.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libandroid-swfplayer.so
+* libs/arm64-v8a/libgensee-log.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libgensee-log.so
+* libs/arm64-v8a/libgsolcomp-jni.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libgsolcomp-jni.so
+* libs/arm64-v8a/libspeex.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libspeex.so
+* libs/arm64-v8a/libstlport_shared.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libstlport_shared.so
+* libs/arm64-v8a/libucamf.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucamf.so
+* libs/arm64-v8a/libucbase.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucbase.so
+* libs/arm64-v8a/libucdflvreader.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucdflvreader.so
+* libs/arm64-v8a/libucflv.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucflv.so
+* libs/arm64-v8a/libucjpeg.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucjpeg.so
+* libs/arm64-v8a/libucnet.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucnet.so
+* libs/arm64-v8a/libucoffplayer.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucoffplayer.so
+* libs/arm64-v8a/libucrtmpcli.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucrtmpcli.so
+* libs/arm64-v8a/libucrtp.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libucrtp.so
+* libs/arm64-v8a/libuctinyxml.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libuctinyxml.so
+* libs/arm64-v8a/libunidecoder.so => app-gensee-player/src/main/jniLibs/arm64-v8a/libunidecoder.so
+* libs/armeabi/libAVCDecoder.so => app-gensee-player/src/main/jniLibs/armeabi/libAVCDecoder.so
+* libs/armeabi/libSoundTouch.so => app-gensee-player/src/main/jniLibs/armeabi/libSoundTouch.so
+* libs/armeabi/libSwfView.so => app-gensee-player/src/main/jniLibs/armeabi/libSwfView.so
+* libs/armeabi/libandroid-swfplayer.so => app-gensee-player/src/main/jniLibs/armeabi/libandroid-swfplayer.so
+* libs/armeabi/libgensee-log.so => app-gensee-player/src/main/jniLibs/armeabi/libgensee-log.so
+* libs/armeabi/libgsolcomp-jni.so => app-gensee-player/src/main/jniLibs/armeabi/libgsolcomp-jni.so
+* libs/armeabi/libspeex.so => app-gensee-player/src/main/jniLibs/armeabi/libspeex.so
+* libs/armeabi/libstlport_shared.so => app-gensee-player/src/main/jniLibs/armeabi/libstlport_shared.so
+* libs/armeabi/libucamf.so => app-gensee-player/src/main/jniLibs/armeabi/libucamf.so
+* libs/armeabi/libucbase.so => app-gensee-player/src/main/jniLibs/armeabi/libucbase.so
+* libs/armeabi/libucdflvreader.so => app-gensee-player/src/main/jniLibs/armeabi/libucdflvreader.so
+* libs/armeabi/libucflv.so => app-gensee-player/src/main/jniLibs/armeabi/libucflv.so
+* libs/armeabi/libucjpeg.so => app-gensee-player/src/main/jniLibs/armeabi/libucjpeg.so
+* libs/armeabi/libucnet.so => app-gensee-player/src/main/jniLibs/armeabi/libucnet.so
+* libs/armeabi/libucoffplayer.so => app-gensee-player/src/main/jniLibs/armeabi/libucoffplayer.so
+* libs/armeabi/libucrtmpcli.so => app-gensee-player/src/main/jniLibs/armeabi/libucrtmpcli.so
+* libs/armeabi/libucrtp.so => app-gensee-player/src/main/jniLibs/armeabi/libucrtp.so
+* libs/armeabi/libuctinyxml.so => app-gensee-player/src/main/jniLibs/armeabi/libuctinyxml.so
+* libs/armeabi/libunidecoder.so => app-gensee-player/src/main/jniLibs/armeabi/libunidecoder.so
+* libs/gensee_baseplayer.jar => app-gensee-player/libs/gensee_baseplayer.jar
+* libs/gensee_common.jar => app-gensee-player/libs/gensee_common.jar
+* libs/gensee_doc.jar => app-gensee-player/libs/gensee_doc.jar
+* libs/gensee_expression.jar => app-gensee-player/libs/gensee_expression.jar
+* libs/gensee_hb.jar => app-gensee-player/libs/gensee_hb.jar
+* libs/gensee_rtmpplayer.jar => app-gensee-player/libs/gensee_rtmpplayer.jar
+* libs/gensee_vod_ol.jar => app-gensee-player/libs/gensee_vod_ol.jar
+* libs/x86/libAVCDecoder.so => app-gensee-player/src/main/jniLibs/x86/libAVCDecoder.so
+* libs/x86/libH264Android.so => app-gensee-player/src/main/jniLibs/x86/libH264Android.so
+* libs/x86/libSoundTouch.so => app-gensee-player/src/main/jniLibs/x86/libSoundTouch.so
+* libs/x86/libSwfView.so => app-gensee-player/src/main/jniLibs/x86/libSwfView.so
+* libs/x86/libandroid-swfplayer.so => app-gensee-player/src/main/jniLibs/x86/libandroid-swfplayer.so
+* libs/x86/libgensee-log.so => app-gensee-player/src/main/jniLibs/x86/libgensee-log.so
+* libs/x86/libgsolcomp-jni.so => app-gensee-player/src/main/jniLibs/x86/libgsolcomp-jni.so
+* libs/x86/libspeex.so => app-gensee-player/src/main/jniLibs/x86/libspeex.so
+* libs/x86/libstlport_shared.so => app-gensee-player/src/main/jniLibs/x86/libstlport_shared.so
+* libs/x86/libucamf.so => app-gensee-player/src/main/jniLibs/x86/libucamf.so
+* libs/x86/libucbase.so => app-gensee-player/src/main/jniLibs/x86/libucbase.so
+* libs/x86/libucdflvreader.so => app-gensee-player/src/main/jniLibs/x86/libucdflvreader.so
+* libs/x86/libucflv.so => app-gensee-player/src/main/jniLibs/x86/libucflv.so
+* libs/x86/libucjpeg.so => app-gensee-player/src/main/jniLibs/x86/libucjpeg.so
+* libs/x86/libucnet.so => app-gensee-player/src/main/jniLibs/x86/libucnet.so
+* libs/x86/libucoffplayer.so => app-gensee-player/src/main/jniLibs/x86/libucoffplayer.so
+* libs/x86/libucrtmpcli.so => app-gensee-player/src/main/jniLibs/x86/libucrtmpcli.so
+* libs/x86/libucrtp.so => app-gensee-player/src/main/jniLibs/x86/libucrtp.so
+* libs/x86/libuctinyxml.so => app-gensee-player/src/main/jniLibs/x86/libuctinyxml.so
+* libs/x86/libunidecoder.so => app-gensee-player/src/main/jniLibs/x86/libunidecoder.so
+* libs/x86/libx264.so => app-gensee-player/src/main/jniLibs/x86/libx264.so
+* lint.xml => app-gensee-player/lint.xml
+* res/ => app-gensee-player/src/main/res/
+* src/ => app-gensee-player/src/main/java/
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

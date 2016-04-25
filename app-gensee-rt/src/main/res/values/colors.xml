@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff0000</color>
+   
+    <color name="public_chat_content">#5e5e5e</color>
+    <color name="public_chat_item_line">#e8e8eb</color>
+    <color name="public_chat_bg">#fcfcfc</color>
+    <color name="public_chat_bar">#efefef</color>
+    <color name="public_chat_other_tip">#252525</color>
+    <color name="public_chat_host_name">#24a4bb</color>
+    <color name="public_chat_self_name">#da5744</color>
+    <color name="public_chat_other_name">#252525</color>
+    <color name="system_message_content">#da5744</color>
+    <color name="system_message_bg">#fff1e5</color>
+    <color name="white">#ffffff</color>
+    <color name="vote_lv_divide">#e8e8e8</color>
+
+    <!-- chat -->
+    <color name="chat_view_bg">#f5f5f5</color>
+    <color name="chat_select_self">#626262</color>
+    <color name="chat_time_display">#999999</color>
+    <color name="chat_divide_line">#ededed</color>
+    <color name="chat_name_i">#b6322c</color>
+    <color name="chat_name_system">#999999</color>
+    <color name="chat_edit_view">#aaaaaa</color>
+    <color name="chat_name_other_people">#333333</color>
+    <color name="chat_hint_talking_peplore">#aaaaaa</color>
+
+    <!-- pop -->
+    <color name="pop_list_do_line_bg">#f2f2f5</color>
+    <color name="item_ly_pop_normal">#ffffff</color>
+    <color name="item_ly_pop_press">#efefef</color>
+    <color name="pop_list_do_text">#da5744</color>
+    <color name="land_black">#cf000000</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="doc_guide_bg">#66000000</color>
+    <color name="color_nav_bg">#73BA20</color>
+    <color name="top_color">#8E000000</color>
+    <color name="video_color_default">#1e1e1e</color>
+
+</resources>

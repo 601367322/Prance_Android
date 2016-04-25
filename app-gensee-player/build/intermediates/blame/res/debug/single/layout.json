@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/player_demo_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/player_demo_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/activity_play.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/activity_play.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/listitem.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/activity_rtmp_source.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/activity_rtmp_source.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/popchat_list_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/popchat_list_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/imviedo.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/imviedo.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/chat_view_header_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/chat_view_header_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/gs_qa_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/gs_qa_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/doc_list_item_ly.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/doc_list_item_ly.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/imqa.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/imqa.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/vote_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/vote_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/imdoc.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/imdoc.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/pop_list_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/pop_list_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/chat_gridview_expression_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/chat_gridview_expression_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/imvote.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/imvote.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/xlistview_footer.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/xlistview_footer.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/rel_tip_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/rel_tip_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/imchat.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/imchat.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/xlistview_header.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/xlistview_header.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/pop_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/pop_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/vod_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/vod_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/single_expression_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/single_expression_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/ly_vote_receive_answers_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/ly_vote_receive_answers_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/spinner_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/ly_vote_receive_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/ly_vote_receive_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/progress_relative.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/progress_relative.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/user_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/user_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/test_chat.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/layout/test_chat.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/chat_listitem_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/chat_listitem_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/gs_qa_item_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/gs_qa_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/popchat_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/popchat_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/layout/chat_view_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/layout/chat_view_layout.xml"
+    }
+]

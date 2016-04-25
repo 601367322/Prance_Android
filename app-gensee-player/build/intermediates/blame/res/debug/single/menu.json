@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/res/merged/debug/menu/rtmp_source.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-player/build/intermediates/exploded-aar/Prance_Android/lib-gensee-player/unspecified/res/menu/rtmp_source.xml"
+    }
+]

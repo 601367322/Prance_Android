@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prance.app">
+
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络访问 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 检测wifi -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- SD卡访问 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 检查网络状态 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- 创建快捷方式 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 录音 -->
+    <!-- 下载 -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- 允许程序禁用键盘锁 -->
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 这个权限用于获取wifi的获取权限,wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 开机 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 允许程序读取或写入系统设置 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 短信 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 删除快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <!-- 验证快捷方式是否存在权限： -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".application.PranceApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/SwipeBackTheme">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <activity
+            android:name=".ui.reg.RegActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <activity
+            android:name=".ui.setting.TestSetting"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/test"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 设置IP测试入口 open close-->
+        <meta-data
+            android:name="TEST_SETTING"
+            android:value="${TEST_SETTING}"></meta-data>
+        <!-- Umeng渠道-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL}" />
+
+
+    </application>
+
+</manifest>

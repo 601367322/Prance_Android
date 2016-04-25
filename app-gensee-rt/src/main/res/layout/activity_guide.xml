@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多路视频:插播（媒体共享）、直播视频、桌面共享，用户视频独立显示，一般适合需要开发组织者的app" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnMutiVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直播-多路视频" />
+
+            <Button
+                android:id="@+id/btnMutiView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预览1" />
+
+            <Button
+                android:id="@+id/btnMutiView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预览2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单路视频:插播（媒体共享）、直播视频、桌面共享综合为一路视频显示，一般适合需要开发观看端、学生端的app，其他功能没有做任何综合处理，因此其他功能和多路视频一样的实现" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnSingleVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="直播-单路视频" />
+
+            <Button
+                android:id="@+id/btnSigleView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预览1" />
+
+            <Button
+                android:id="@+id/btnSigleView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预览2" />
+
+            <Button
+                android:id="@+id/btnSigleView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预览3" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点播操作的内容主要是录制件，包括离线下载、离线播放、在线播放的功能" />
+
+        <Button
+            android:id="@+id/btnVod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点播" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/single_1"
+        android:visibility="gone" />
+
+</RelativeLayout>

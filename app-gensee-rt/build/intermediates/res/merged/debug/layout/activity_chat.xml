@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/chat_context_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/chat_spininer"
+            android:layout_width="@dimen/chat_spinner"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <com.gensee.view.ChatEditText
+            android:id="@+id/chat_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:maxLines="4"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/chat_expression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/chat_expression"
+             />
+
+        <Button
+            android:id="@+id/chat_sendmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/chat_sendmsg"
+            />
+        <Button 
+            android:id="@+id/chat_backactivity"
+            android:layout_width="@dimen/chat_backwidth"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/chat_back"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/chat_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:horizontalSpacing="10dp"
+        android:numColumns="6"
+        android:verticalSpacing="5dp"
+        android:visibility="gone" >
+    </GridView>
+
+</LinearLayout>

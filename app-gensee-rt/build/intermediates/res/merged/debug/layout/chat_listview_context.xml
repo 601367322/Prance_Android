@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/chat_send_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="@string/sytsemmesg" />
+
+    <TextView
+        android:id="@+id/chat_listview_timw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/chat_send_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/chat_send_name"
+        android:layout_marginRight="5dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:text="@string/displaytime" />
+
+    <com.gensee.view.MyTextViewEx
+        android:id="@+id/chat_listview_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_send_name"
+        android:gravity="center_vertical"
+        android:padding="5dp" />
+
+</RelativeLayout>

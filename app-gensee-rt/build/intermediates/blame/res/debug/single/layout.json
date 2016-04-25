@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_query_group.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_query_group.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_answer_edit.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_answer_edit.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_commit_child_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_commit_child_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/chat_view_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/chat_view_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_list_receive_item_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_list_receive_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_question_edit.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_question_edit.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/single_expression_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/single_expression_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_receiver_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_receiver_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/popchat_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/popchat_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_question_child_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_question_child_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_query_child.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_query_child.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/item_ly_public_chat.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/item_ly_public_chat.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_list_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_list_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_holder_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_holder_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/doc_list_item_ly.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/doc_list_item_ly.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_rtvideos.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_rtvideos.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_main_lib.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/exploded-aar/Prance_Android/lib-gensee-rt/unspecified/res/layout/activity_main_lib.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_list_item_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_list_item_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_play.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_play.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/chat_listview_context.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/chat_listview_context.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/chat_listitem_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/chat_listitem_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_query_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_query_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/ly_public_chat.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/ly_public_chat.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/popchat_list_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/popchat_list_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_debate_room.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_debate_room.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_commit_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_commit_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_simple.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_simple.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_question_group_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_question_group_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vod_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vod_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/team_layout_single_expression_cell.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/team_layout_single_expression_cell.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/listitem.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_commit_group_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_commit_group_layout.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_answer_item.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_answer_item.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/activity_guide.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/build/intermediates/res/merged/debug/layout/vote_host_layout.xml",
+        "source": "/Users/shenbingbing/Documents/project/Prance_Android/app-gensee-rt/src/main/res/layout/vote_host_layout.xml"
+    }
+]

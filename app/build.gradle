@@ -1,0 +1,140 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+def GaoDeMap_Debug = 'd6f5dae4da2178a70ccd6b887cec3056'
+def GaoDeMap_Release = '0e2cdde1d8f0e97710c35b6027ef3ea8'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    /* dexOptions {
+         incremental true
+         javaMaxHeapSize "4g"
+     }*/
+
+    defaultConfig {
+        applicationId rootProject.ext.applicationId
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+        // 默认是umeng的渠道 高德地图测试
+        manifestPlaceholders = [TEST_SETTING: "open", UMENG_CHANNEL: "tengyue"]
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+
+        release {
+            storeFile file("tengyue")
+            storePassword "123456"
+            keyAlias "腾跃"
+            keyPassword "123456"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+
+        debug {
+            //*********改为false可使用instant run加快调试速度************
+            //*********但是请注意:如果有加入某个新的第三方库,需要改为true 测试混淆!!!!!!!!!!!!!!!!**********/
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            ndk {
+                abiFilters "armeabi-v7a", "armeabi", 'x86'
+            }
+
+            zipAlignEnabled true
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            ndk {
+                abiFilters "armeabi-v7a", "armeabi"
+            }
+
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+        }
+    }
+
+    productFlavors {
+
+        wandoujia {}
+        baidu {}
+        c360 {}
+        yingyongbao {}
+        yingyonghui {}
+        xiaomi {}
+        huawei {}
+        tengyue {}
+        mumayi {}
+
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [TEST_SETTING: "open", UMENG_CHANNEL: name]
+        }
+
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                // 输出apk名称为tengyue_v1.0_2015-01-15_wandoujia.apk
+                def fileName = "tengyue_v${rootProject.ext.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds rootProject.ext.checkReleaseBuilds
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+
+    compile "com.android.support:support-v4:$rootProject.ext.supportVersion"
+    compile "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    compile 'com.github.bumptech.glide:glide:3.7.0'//图片
+    compile 'com.jakewharton:butterknife:7.0.1'//注解
+    compile 'org.greenrobot:eventbus:3.0.0'//
+    compile "com.android.support:design:$rootProject.ext.supportVersion"
+    compile 'com.google.code.gson:gson:2.5'//json解析
+
+    compile project(':lib-greendao')//数据库
+    compile project(':lib-okhttputils')//网络请求
+    compile project(':lib-photoview')//大图展示
+    compile project(':lib-swipebacklayout')//滑动退出
+    compile project(':lib-umeng')//umeng
+    compile project(':lib-sharedpreferences')//sql代替shared
+}

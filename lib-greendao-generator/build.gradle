@@ -1,0 +1,22 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+//设置主class,否则编译不通过
+mainClassName = "com.example.GeneratorClass"
+
+//设置自动生成类的目录
+def outputDir = "../lib-greendao/src/main/java-gen"
+
+dependencies {
+
+    compile 'org.greenrobot:greendao-generator:2.2.0'
+}
+
+//自动创建文件夹
+task createDocs {
+    def docs = file(outputDir)
+    docs.mkdirs()
+}
+run {
+    args outputDir
+}

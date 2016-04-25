@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chat_view_bg"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/chat_padding_top" >
+
+    <RadioButton
+        android:id="@+id/looktakingbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/looking_talking"
+        android:text="@string/justlookmyname"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/looktaking_tv"
+        android:layout_width="@dimen/chat_select_self_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_chat_select_self_switch"
+        android:gravity="center_vertical"
+        android:text="@string/justlookmyname"
+        android:textColor="@color/chat_select_self"
+        android:textSize="@dimen/chat_select_self" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/talkingcontext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/chat_divide_line"
+        android:dividerHeight="1dp"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_bottom"
+        android:gravity="center"
+        android:padding="@dimen/chat_bottom_padding" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/talkingpeople"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+              
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/chat_talking_people_name"
+                android:layout_width="@dimen/name_length"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="@string/allname"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/talking_user_select_tv"
+            android:layout_width="@dimen/chat_bottom_left_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chat_select_person_left"
+            android:background="@drawable/selector_chat_select_switch"
+            android:gravity="center_vertical"
+            android:text="@string/allname"
+            android:textColor="@color/chat_edit_view"
+            android:textSize="@dimen/chat_select_name_size" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@drawable/edt_chat_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" >
+
+                <com.gensee.view.ChatEditText
+                    android:id="@+id/edittalking"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="@dimen/chat_editview_context_left"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:maxLines="4"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/chat_edit_view"
+                    android:textSize="@dimen/chat_editview_context" />
+
+                <ImageButton
+                    android:id="@+id/expressionbuttton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/iv_avatar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/sendbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/chat_sendbutton_right"
+            android:background="@drawable/sendbutton"
+            android:contentDescription="@string/app_name" >
+        </ImageButton>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/allexpressiongridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="10dp"
+        android:numColumns="6"
+        android:verticalSpacing="10dp"
+         >
+    </GridView>
+
+</LinearLayout>

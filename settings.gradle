@@ -1,0 +1,6 @@
+include ':app', ':lib-greendao-generator', ':lib-okhttputils', ':app-okhttp', ':lib-greendao', ':lib-sharedpreferences', 'lib-swipebacklayout', 'lib-photoview'
+include ':lib-gensee-rt'
+include ':app-gensee-rt'
+include ':lib-gensee-player'
+include ':app-gensee-player'
+include ':lib-umeng'

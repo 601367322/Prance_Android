@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollLog"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" >
+
+            <TextView
+                android:id="@+id/txtChatMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textColor="#00ff0000" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/linStepOne"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <com.gensee.view.GSVideoView
+                    android:id="@+id/surface_casting_cus"
+                    android:layout_width="320dp"
+                    android:layout_height="240dp"
+                    android:layout_marginBottom="5dp" />
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown" />
+
+                    <EditText
+                        android:id="@+id/editDomain"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/domain" />
+
+                    <EditText
+                        android:id="@+id/editCastNum"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/castnum" />
+
+                    <EditText
+                        android:id="@+id/editAccount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/account" />
+
+                    <EditText
+                        android:id="@+id/editpwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/pwd" />
+
+                    <EditText
+                        android:id="@+id/editNickName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="昵称" />
+
+                    <EditText
+                        android:id="@+id/editWatchword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/watchword" />
+                    <EditText
+                        android:id="@+id/edtK"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="认证K值" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/init"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="加入" />
+
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/btnOnlyAudio"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/only_audio" />
+
+                        <Button
+                            android:id="@+id/btnVideo"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="视频显示切换" />
+
+                        <Button
+                            android:id="@+id/btnExit"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="退出房间" />
+                    </LinearLayout>
+                </LinearLayout>
+<!-- 
+                <View
+                    android:layout_width="320dp"
+                    android:layout_height="1px"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#000000" /> -->
+
+                <!-- <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtUserNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="320dp" />
+
+                    <TextView
+                        android:id="@+id/txtChatMsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:gravity="bottom"
+                        android:maxLines="8"
+                        android:minWidth="320dp"
+                        android:textColor="#00ff0000" />
+
+                    <EditText
+                        android:id="@+id/edtMsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="提问、聊天、新用户名请在这里输入"
+                        android:minWidth="320dp" />
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btnSend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:minWidth="320dp"
+                            android:text="私聊" />
+
+                        <Button
+                            android:id="@+id/btnSendGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:minWidth="320dp"
+                            android:text="公聊" />
+
+                        <Button
+                            android:id="@+id/btnQa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:minWidth="320dp"
+                            android:text="提问" />
+
+                        <Button
+                            android:id="@+id/btnRoster"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="修改用户名" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linVote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="320dp"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btnPresent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="点名出席" />
+
+                        <Button
+                            android:id="@+id/btnVote"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="投票提交" />
+
+                        <Button
+                            android:id="@+id/btnFeedBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="反馈" />
+
+                        <Button
+                            android:id="@+id/btnExit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="退出-" />
+                    </LinearLayout>
+
+
+                </LinearLayout> -->
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_chat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include layout="@layout/chat_view_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

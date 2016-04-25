@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Prance_Android.iml" filepath="$PROJECT_DIR$/Prance_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-gensee-player/app-gensee-player.iml" filepath="$PROJECT_DIR$/app-gensee-player/app-gensee-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-gensee-rt/app-gensee-rt.iml" filepath="$PROJECT_DIR$/app-gensee-rt/app-gensee-rt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-okhttp/app-okhttp.iml" filepath="$PROJECT_DIR$/app-okhttp/app-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-gensee-player/lib-gensee-player.iml" filepath="$PROJECT_DIR$/lib-gensee-player/lib-gensee-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-gensee-rt/lib-gensee-rt.iml" filepath="$PROJECT_DIR$/lib-gensee-rt/lib-gensee-rt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-greendao/lib-greendao.iml" filepath="$PROJECT_DIR$/lib-greendao/lib-greendao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-greendao-generator/lib-greendao-generator.iml" filepath="$PROJECT_DIR$/lib-greendao-generator/lib-greendao-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-okhttputils/lib-okhttputils.iml" filepath="$PROJECT_DIR$/lib-okhttputils/lib-okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-photoview/lib-photoview.iml" filepath="$PROJECT_DIR$/lib-photoview/lib-photoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-sharedpreferences/lib-sharedpreferences.iml" filepath="$PROJECT_DIR$/lib-sharedpreferences/lib-sharedpreferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-swipebacklayout/lib-swipebacklayout.iml" filepath="$PROJECT_DIR$/lib-swipebacklayout/lib-swipebacklayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-umeng/lib-umeng.iml" filepath="$PROJECT_DIR$/lib-umeng/lib-umeng.iml" />
+    </modules>
+  </component>
+</project>

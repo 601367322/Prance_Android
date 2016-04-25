@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vote_ver"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vote_name" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edt_vote_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vote_ver" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vote_question_list_tip" >
+            </TextView>
+
+            <Button
+                android:id="@+id/vote_question_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vote_add" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ExpandableListView
+                android:id="@+id/question_expand_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:childDivider="@color/vote_lv_divide"
+                android:groupIndicator="@null"
+                android:divider="@color/vote_lv_divide" >
+            </ExpandableListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/question_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vote_save" >
+            </Button>
+
+            <Button
+                android:id="@+id/question_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vote_cancel" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
